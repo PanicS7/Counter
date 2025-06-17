@@ -1,0 +1,16 @@
+#counter-container {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(47, 0, 255);
+  color:aliceblue;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#counter-data {
+  font-size: 30px;
+  font-weight: bold;
+}
