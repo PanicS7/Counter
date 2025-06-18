@@ -3,6 +3,7 @@ A simple yet functional counter application built with Angular, demonstrating co
 
 ## Features
 Increment/Decrement Counter: Two buttons to increase or decrease the counter value.
+Reset Functionality: Button that resets the counter to 0
 
 ## Technologies Used
 - Angular 20
