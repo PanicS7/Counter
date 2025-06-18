@@ -1,6 +1,6 @@
 #counter-container {
-  width: 400px;
-  height: 400px;
+  width: 700px;
+  height: 700px;
   background-color: rgb(47, 0, 255);
   color:aliceblue;
   margin: auto;
@@ -17,15 +17,28 @@
   justify-self: center;
 }
 
+#counter-headline {
+  font-size: 50px;
+}
+
 #counter-body button {
+  box-sizing: border-box;
   background-color:darkred;
   color:aliceblue;
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   margin:auto;
+  cursor: pointer;
+  border: 1px solid black;
+  border-left: 2px solid black; /* visual fix */
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
 }
 
 #counter-data {
-  font-size: 30px;
+  font-size: 50px;
   font-weight: bold;
 }
