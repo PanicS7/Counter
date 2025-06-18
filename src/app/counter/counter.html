@@ -2,9 +2,9 @@
   <div>
     <h1 id="counter-headline">Counter</h1>
     <div id="counter-body">
-      <button>-1</button>
-      <p id="counter-data">0</p>
-      <button>+1</button>
+      <button (click) = "decrement()">-1</button>
+      <p id="counter-data">{{counter}}</p>
+      <button (click) = "increment()">+1</button>
     </div>
   </div>
 </div>
