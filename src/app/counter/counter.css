@@ -10,6 +10,21 @@
   justify-content: center;
 }
 
+#counter-body {
+  display: flex;
+  text-align: left;
+  gap: 20px;
+  justify-self: center;
+}
+
+#counter-body button {
+  background-color:darkred;
+  color:aliceblue;
+  width: 30px;
+  height: 30px;
+  margin:auto;
+}
+
 #counter-data {
   font-size: 30px;
   font-weight: bold;

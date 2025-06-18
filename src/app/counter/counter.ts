@@ -7,5 +7,4 @@ import { Component } from '@angular/core';
   styleUrl: './counter.css'
 })
 export class Counter {
-
 }
